@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
         }
     }
 
-    cv::namedWindow( "Display window", cv::WINDOW_AUTOSIZE );
+    cv::namedWindow("Display window", cv::WINDOW_AUTOSIZE);
     cv::imshow("Display window", new_image);
 
     cv::waitKey(0);
